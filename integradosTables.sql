@@ -60,7 +60,7 @@ CREATE TABLE IF NOT EXISTS `mydb`.`movimentacoes` (
   `valor_mov` VARCHAR(45) NOT NULL,
   `saldo_ini` VARCHAR(45) NOT NULL,
   `saldo_fim` VARCHAR(45) NOT NULL,
-  `idfk_cartao` INT NOT NULL,
+  `idfk_cartao` BIGINT NOT NULL,
   `idfk_cliente` INT NOT NULL,
   PRIMARY KEY (`id_mov`),
   INDEX `fk_movimentacoes_cartoes1_idx` (`idfk_cartao` ASC, `idfk_cliente` ASC),
