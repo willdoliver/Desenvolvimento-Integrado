@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+	<head>
+	    <!-- Required meta tags -->
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	    <!-- Bootstrap CSS -->
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    	<title>Trabalho Final TOP</title>
+	</head>
+	<body>
+		<!-- Parte de cima -->
+		<div class="container">
+				<h1> Filmes </h1>
+		    <div>
+			    <h2 align=left> Consultar de Filmes</h2><br>
+		    	<form name="Consulta" action="http://localhost:5000/filmes" method="GET" align= left>
+					<input type="submit" name="consulta_filmes" value="Consultar Filmes"><br><br>
+			    </form>			    
+			    <h2 align=left> Consultar de Filmes por ID</h2><br>
+		    	<form name="Consulta" action="http://localhost:5000/filmes/" method="GET" align= left>
+			    	<label>ID do filme:</label><input name="id_filme"><br>
+					<input type="submit" name="consulta_filmes_id" value="Consultar Filme"><br><br>
+			    </form>
+		    	<h2 align=left> Insercao de novo filme</h2><br>
+		    	<form name="Cadastro" action="http://localhost:5000/insereFilme/" method="GET" align= left>
+			    	<label>URL:</label><input name="url_filme"><br>
+			    	<label>Nome:</label><input name="nome"><br>
+			    	<label>Genero:</label><input name="genero" type="search" list="online-stores"><br>
+					<datalist id="online-stores" style="display:hidden;">
+						<option value="Action">
+						<option value="Adventure">
+						<option value="Animation">
+						<option value="Comedy">
+						<option value="Crime">
+						<option value="Documentary">
+						<option value="Drama">
+						<option value="Fantasy">
+						<option value="Horror">
+						<option value="Music">
+						<option value="Mystery">
+						<option value="Romance">
+						<option value="Science Fiction">
+						<option value="Thriller">
+						<option value="top">
+						<option value="War">
+						<option value="Western">
+					</datalist>
+				    <label>Data Lancamento: </label><input name="dataLanc" placeholder="dd/mm/aaaa"><br>
+				    <label>Produtora: </label><input name="produtora"><br>
+				    <label>Diretor: </label><input name="diretor"><br>
+			    	<label>Nota: </label><input name="nota" type="number" placeholder="0 - 50"><br>
+				    </fieldset>
+				    <input type="submit" name="cadastrar_filme" value="Cadastrar Filme"><br><br>
+				    </fieldset>
+			    </form>
+		    </div>
+		</div>
+
+	    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	</body>
+</html>
