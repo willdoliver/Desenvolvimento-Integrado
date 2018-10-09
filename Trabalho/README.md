@@ -1,6 +1,6 @@
 # Desenvolvimento-Integrado
 
-# Patriky E. Galvão Mirkoski
+# Patriky E. Galvão Mirkoski Rosado
 
 # William de Oliveira Souza
 

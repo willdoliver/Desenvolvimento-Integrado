@@ -1,0 +1,4 @@
+cliente(cpf(pk), nome, nasc, endereco, qtde_cartao)
+cartao(numcartao(pk), nome, codSeg, venc, saldo_atual, cpf_cliente) FK(cpf_cliente(cliente))
+movimentacao(id(pk), valor, data, num_cartao) FK(numcartao(cartao))
+extrato(id(PK), valor, data, num_cartao) FK(num_cartao(cartao))   

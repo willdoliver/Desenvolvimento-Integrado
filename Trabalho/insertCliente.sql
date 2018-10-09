@@ -1,4 +1,3 @@
-SELECT * FROM mydb.clientes;
 INSERT INTO `clientes` (`nome_cliente`,`data_nasc`,`email`,`endereco`,`cep`) VALUES ("Myra","26-10-18","In.at@loremeumetus.edu","P.O. Box 752, 7560 Purus, Av.","60802");
 INSERT INTO `clientes` (`nome_cliente`,`data_nasc`,`email`,`endereco`,`cep`) VALUES ("Russell","28-05-18","morbi.tristique.senectus@orci.net","Ap #748-2796 Ac St.","39-194");
 INSERT INTO `clientes` (`nome_cliente`,`data_nasc`,`email`,`endereco`,`cep`) VALUES ("Amaya","29-01-19","enim.Nunc@auguescelerisquemollis.co.uk","9548 Consectetuer Ave","03194-909");

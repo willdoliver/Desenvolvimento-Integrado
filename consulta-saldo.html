@@ -19,33 +19,25 @@
 
 		<!-- Parte de cima -->
 		<div class="container">
-				<h1> Bandas </h1>
+				<h1> Consulta de Saldo por cliente </h1>
 			<div>
-			    <form name="Consulta" action="http://localhost:5000/bandas" method="GET" align= left>
-			    	<h2 align=left> Consulta de Bandas</h2><br>
-					<input type="submit" name="consultar_bandas" value="Consultar bandas"><br><br>
-				</form>
-			    <form name="Consulta" action="http://localhost:5000/bandas/" method="GET" align= left>
-			    	<h2 align=left> Consulta de Bandas por id ou nome</h2><br>
-				   	<label>ID ou Nome da banda/cantor: </label><input name="id_banda_cantor"><br>
-				   	<input type="submit" name="consultar_banda" value="Consultar banda"><br><br>
-				</form>
-		    	<h2 align=left> Insercao de nova banda</h2><br>
-			    <form name="Cadastro" action="http://localhost:5000/insereBanda/" method="GET" align= left>
-				    	<label>Nome da banda/cantor: </label><input name="banda_cantor"><br>
-				    	<label>Genero:</label><input name="genero" type="search" list="online-stores"><br>
-						<datalist id="online-stores" style="display:hidden;">
-							<option value="Funk">
-							<option value="Pop">
-							<option value="Rap">
-							<option value="Rock">
-							<option value="Sertanejo">
+			    <form name="clientes" action="http://localhost:5000/bandas" method="GET" align= left>
+			    		<label>Cliente: </label><input name="id_cli" type="search" list="select_cliente"><br>
+			    		<datalist id="select_cliente" style="display:hidden;">
+							<option value="select * from clientes">
 						</datalist>
-				    	<label>Pais: </label><input name="pais"><br>
-				    	<label>Tipo: </label><input name="tipo" placeholder="Banda / Person"><br>
-				    	<label>Data de Inicio: </label><input name="dataIni" placeholder="dd/mm/aaaa"><br>
-				    	<label>Data final: </label><input name="dataFim" placeholder="dd/mm/aaaa / atual"><br>		    
-				    	<input type="submit" name="cadastrar_banda" value="Cadastrar banda"><br><br>
+				</form>
+
+			    <form name="cartoes" action="http://localhost:5000/bandas/" method="POST" align= left>
+				   	<label>Cartoes do cliente: </label><input name="id_cartao" type="search" list="select_cartao"><br>
+				   	<datalist id="select_cartao" style="display:hidden;">
+						<option value="select * from cartoes where idfk_cliente = ?;">
+					</datalist>
+				</form>
+
+			    <form name="saldos" action="http://localhost:5000/insereBanda/" method="POST" align= left>
+				    <label>Selecione o periodo inicial: </label><input id="ini_date" type="date" min="2000-01-01" max="2018-10-19"><br>
+				    <label>Selecione o periodo final: </label><input id="fim_date" type="date" min="2000-01-01" max="2018-10-19">
 			    </form>
 		    </div>
 		</div>
