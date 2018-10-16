@@ -21,11 +21,15 @@
 		<div class="container">
 				<h1> Consulta de Saldo por cliente </h1>
 			<div>
-			    <form name="clientes" action="http://localhost:5000/bandas" method="GET" align= left>
+			    <form name="clientes" action="http://localhost:5000/consulta-saldo" method="GET" align= left>
 			    		<label>Cliente: </label><input name="id_cli" type="search" list="select_cliente"><br>
 			    		<datalist id="select_cliente" style="display:hidden;">
-							<option value="select * from clientes">
+			    			<?php
+
+								<option value="">
+							?>
 						</datalist>
+
 				</form>
 
 			    <form name="cartoes" action="http://localhost:5000/bandas/" method="POST" align= left>
