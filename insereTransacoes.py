@@ -8,12 +8,10 @@ valor_movimentacao = []
 def conexao():
 	global cur, conex 
 	try:
-		#conecta-se ao banco de dados LocalHost - Teste
-		#conex = pymysql.connect(db= 'teste',user = 'root', password = '' , host = '127.0.0.1',	port = 3306)
-
 		# CONEXAO SERVER RLE
-		#conex = pymysql.connect(db= 'wolverine', user = 'wolverine', password = "@wolverine#", host = '200.134.10.221', port = 3306)
-		conex = pymysql.connect(db= 'wolv', user = 'root', password = "", host = '127.0.0.1', port = 3306)
+		conex = pymysql.connect(db= 'wolverine', user = 'wolverine', password = "@wolverine#", host = '200.134.10.221', port = 3306)
+		# CONEXAO LOCALHOST
+		#conex = pymysql.connect(db= 'wolv', user = 'root', password = "", host = '127.0.0.1', port = 3306)
 
 		cur = conex.cursor() #Abre um cursor para executar operações no BD
 		print("****Conectou ao banco!****")
@@ -55,6 +53,7 @@ def insereMovimentacao():
 				except Exception as e:
 					fail += 1
 					continue
+				print(cont, " de 90000")
 	print(cont, " dados inseridos\n", fail, " nao inseridos")
 
 
