@@ -1,0 +1,240 @@
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2015-1-27','-109.31','34809','0.0','-109.31')
+UPDATE cartao SET saldo = -109.310000 WHERE id = 34809
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2015-2-12','34.85','3442','0.0','34.85')
+UPDATE cartao SET saldo = 34.850000 WHERE id = 3442
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2015-3-9','-986.69','33254','0.0','-986.69')
+UPDATE cartao SET saldo = -986.690000 WHERE id = 33254
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2015-4-7','-489.80','5796','0.0','-489.8')
+UPDATE cartao SET saldo = -489.800000 WHERE id = 5796
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2015-5-20','469.9','1161','0.0','469.9')
+UPDATE cartao SET saldo = 469.900000 WHERE id = 1161
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2015-6-23','760.38','32130','0.0','760.38')
+UPDATE cartao SET saldo = 760.380000 WHERE id = 32130
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2015-7-22','968.56','2258','0.0','968.56')
+UPDATE cartao SET saldo = 968.560000 WHERE id = 2258
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2015-8-24','-450.7','38993','0.0','-450.7')
+UPDATE cartao SET saldo = -450.700000 WHERE id = 38993
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2015-9-29','991.66','17872','0.0','991.66')
+UPDATE cartao SET saldo = 991.660000 WHERE id = 17872
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2015-10-10','304.46','30667','0.0','304.46')
+UPDATE cartao SET saldo = 304.460000 WHERE id = 30667
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2015-11-8','930.61','3086','0.0','930.61')
+UPDATE cartao SET saldo = 930.610000 WHERE id = 3086
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2015-12-23','-532.26','24266','0.0','-532.26')
+UPDATE cartao SET saldo = -532.260000 WHERE id = 24266
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2016-1-26','645.39','18310','0.0','645.39')
+UPDATE cartao SET saldo = 645.390000 WHERE id = 18310
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2016-2-15','422.26','934','0.0','422.26')
+UPDATE cartao SET saldo = 422.260000 WHERE id = 934
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2016-3-21','349.63','18444','0.0','349.63')
+UPDATE cartao SET saldo = 349.630000 WHERE id = 18444
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2016-4-9','254.0','32440','0.0','254.0')
+UPDATE cartao SET saldo = 254.000000 WHERE id = 32440
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2016-5-20','439.11','39322','0.0','439.11')
+UPDATE cartao SET saldo = 439.110000 WHERE id = 39322
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2016-6-13','422.98','24577','0.0','422.98')
+UPDATE cartao SET saldo = 422.980000 WHERE id = 24577
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2016-7-9','43.85','20788','0.0','43.85')
+UPDATE cartao SET saldo = 43.850000 WHERE id = 20788
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2016-8-25','497.34','34148','0.0','497.34')
+UPDATE cartao SET saldo = 497.340000 WHERE id = 34148
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2016-9-15','50.54','35652','0.0','50.54')
+UPDATE cartao SET saldo = 50.540000 WHERE id = 35652
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2016-10-3','774.56','18522','0.0','774.56')
+UPDATE cartao SET saldo = 774.560000 WHERE id = 18522
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2016-11-7','284.87','17786','0.0','284.87')
+UPDATE cartao SET saldo = 284.870000 WHERE id = 17786
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2016-12-13','875.47','30133','0.0','875.47')
+UPDATE cartao SET saldo = 875.470000 WHERE id = 30133
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2017-1-7','-116.38','13814','0.0','-116.38')
+UPDATE cartao SET saldo = -116.380000 WHERE id = 13814
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2017-2-24','-174.51','25445','0.0','-174.51')
+UPDATE cartao SET saldo = -174.510000 WHERE id = 25445
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2017-3-12','-650.11','28579','0.0','-650.11')
+UPDATE cartao SET saldo = -650.110000 WHERE id = 28579
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2017-4-16','-998.82','1300','0.0','-998.82')
+UPDATE cartao SET saldo = -998.820000 WHERE id = 1300
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2017-5-21','-854.45','8480','0.0','-854.45')
+UPDATE cartao SET saldo = -854.450000 WHERE id = 8480
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2017-6-9','823.42','24121','0.0','823.42')
+UPDATE cartao SET saldo = 823.420000 WHERE id = 24121
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2017-7-21','-868.73','38599','0.0','-868.73')
+UPDATE cartao SET saldo = -868.730000 WHERE id = 38599
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2017-8-23','-27.79','3260','0.0','-27.79')
+UPDATE cartao SET saldo = -27.790000 WHERE id = 3260
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2017-9-26','-200.98','25557','0.0','-200.98')
+UPDATE cartao SET saldo = -200.980000 WHERE id = 25557
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2017-10-20','185.14','28746','0.0','185.14')
+UPDATE cartao SET saldo = 185.140000 WHERE id = 28746
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2017-11-23','374.74','4093','0.0','374.74')
+UPDATE cartao SET saldo = 374.740000 WHERE id = 4093
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2017-12-28','-204.53','14966','0.0','-204.53')
+UPDATE cartao SET saldo = -204.530000 WHERE id = 14966
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2018-1-17','-936.86','19559','0.0','-936.86')
+UPDATE cartao SET saldo = -936.860000 WHERE id = 19559
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2018-2-23','-192.53','10387','0.0','-192.53')
+UPDATE cartao SET saldo = -192.530000 WHERE id = 10387
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2018-3-17','494.48','6462','0.0','494.48')
+UPDATE cartao SET saldo = 494.480000 WHERE id = 6462
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2018-4-30','569.65','18801','0.0','569.65')
+UPDATE cartao SET saldo = 569.650000 WHERE id = 18801
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2018-5-13','554.86','2264','0.0','554.86')
+UPDATE cartao SET saldo = 554.860000 WHERE id = 2264
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2018-6-9','-116.61','10780','0.0','-116.61')
+UPDATE cartao SET saldo = -116.610000 WHERE id = 10780
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2018-7-19','-874.80','16223','0.0','-874.8')
+UPDATE cartao SET saldo = -874.800000 WHERE id = 16223
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2018-8-7','33.14','20150','0.0','33.14')
+UPDATE cartao SET saldo = 33.140000 WHERE id = 20150
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2018-9-20','606.22','35031','0.0','606.22')
+UPDATE cartao SET saldo = 606.220000 WHERE id = 35031
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2018-10-27','-997.79','10272','0.0','-997.79')
+UPDATE cartao SET saldo = -997.790000 WHERE id = 10272
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2018-11-2','-584.35','6080','0.0','-584.35')
+UPDATE cartao SET saldo = -584.350000 WHERE id = 6080
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2018-12-20','-304.0','15888','0.0','-304.0')
+UPDATE cartao SET saldo = -304.000000 WHERE id = 15888
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2019-1-30','-36.51','32406','0.0','-36.51')
+UPDATE cartao SET saldo = -36.510000 WHERE id = 32406
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2019-2-30','-203.78','21864','0.0','-203.78')
+UPDATE cartao SET saldo = -203.780000 WHERE id = 21864
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2019-3-22','-208.49','36778','0.0','-208.49')
+UPDATE cartao SET saldo = -208.490000 WHERE id = 36778
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2019-4-29','-920.13','3708','0.0','-920.13')
+UPDATE cartao SET saldo = -920.130000 WHERE id = 3708
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2019-5-13','-681.49','40011','0.0','-681.49')
+UPDATE cartao SET saldo = -681.490000 WHERE id = 40011
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2019-6-7','56.67','5939','0.0','56.67')
+UPDATE cartao SET saldo = 56.670000 WHERE id = 5939
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2019-7-13','249.67','22554','0.0','249.67')
+UPDATE cartao SET saldo = 249.670000 WHERE id = 22554
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2019-8-25','795.37','6303','0.0','795.37')
+UPDATE cartao SET saldo = 795.370000 WHERE id = 6303
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2019-9-6','-846.39','21589','0.0','-846.39')
+UPDATE cartao SET saldo = -846.390000 WHERE id = 21589
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2019-10-14','627.81','37656','0.0','627.81')
+UPDATE cartao SET saldo = 627.810000 WHERE id = 37656
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2019-11-13','-565.49','2257','0.0','-565.49')
+UPDATE cartao SET saldo = -565.490000 WHERE id = 2257
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2019-12-2','676.61','26979','0.0','676.61')
+UPDATE cartao SET saldo = 676.610000 WHERE id = 26979
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2015-1-18','689.65','31626','0.0','689.65')
+UPDATE cartao SET saldo = 689.650000 WHERE id = 31626
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2015-2-16','455.46','25228','0.0','455.46')
+UPDATE cartao SET saldo = 455.460000 WHERE id = 25228
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2015-3-3','297.74','31336','0.0','297.74')
+UPDATE cartao SET saldo = 297.740000 WHERE id = 31336
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2015-4-29','-944.60','35518','0.0','-944.6')
+UPDATE cartao SET saldo = -944.600000 WHERE id = 35518
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2015-5-28','-784.19','17637','0.0','-784.19')
+UPDATE cartao SET saldo = -784.190000 WHERE id = 17637
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2015-6-21','498.64','23063','0.0','498.64')
+UPDATE cartao SET saldo = 498.640000 WHERE id = 23063
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2015-7-1','-117.12','38193','0.0','-117.12')
+UPDATE cartao SET saldo = -117.120000 WHERE id = 38193
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2015-8-15','861.3','14005','0.0','861.3')
+UPDATE cartao SET saldo = 861.300000 WHERE id = 14005
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2015-9-26','-119.32','19088','0.0','-119.32')
+UPDATE cartao SET saldo = -119.320000 WHERE id = 19088
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2015-10-2','133.60','36415','0.0','133.6')
+UPDATE cartao SET saldo = 133.600000 WHERE id = 36415
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2015-11-6','-765.93','39793','0.0','-765.93')
+UPDATE cartao SET saldo = -765.930000 WHERE id = 39793
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2015-12-9','-417.25','22690','0.0','-417.25')
+UPDATE cartao SET saldo = -417.250000 WHERE id = 22690
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2016-1-27','-819.3','34829','0.0','-819.3')
+UPDATE cartao SET saldo = -819.300000 WHERE id = 34829
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2016-2-21','970.26','32888','0.0','970.26')
+UPDATE cartao SET saldo = 970.260000 WHERE id = 32888
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2016-3-16','-905.67','10503','0.0','-905.67')
+UPDATE cartao SET saldo = -905.670000 WHERE id = 10503
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2016-4-11','-29.87','29758','0.0','-29.87')
+UPDATE cartao SET saldo = -29.870000 WHERE id = 29758
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2016-5-26','348.40','36647','0.0','348.4')
+UPDATE cartao SET saldo = 348.400000 WHERE id = 36647
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2016-6-1','-357.54','24597','0.0','-357.54')
+UPDATE cartao SET saldo = -357.540000 WHERE id = 24597
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2016-7-6','-474.13','39940','0.0','-474.13')
+UPDATE cartao SET saldo = -474.130000 WHERE id = 39940
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2016-8-10','-221.38','18902','0.0','-221.38')
+UPDATE cartao SET saldo = -221.380000 WHERE id = 18902
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2016-9-13','635.26','1844','0.0','635.26')
+UPDATE cartao SET saldo = 635.260000 WHERE id = 1844
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2016-10-20','-790.16','5632','0.0','-790.16')
+UPDATE cartao SET saldo = -790.160000 WHERE id = 5632
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2016-11-16','933.49','2055','0.0','933.49')
+UPDATE cartao SET saldo = 933.490000 WHERE id = 2055
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2016-12-1','-314.68','32152','0.0','-314.68')
+UPDATE cartao SET saldo = -314.680000 WHERE id = 32152
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2017-1-28','515.20','13306','0.0','515.2')
+UPDATE cartao SET saldo = 515.200000 WHERE id = 13306
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2017-2-30','986.21','5604','0.0','986.21')
+UPDATE cartao SET saldo = 986.210000 WHERE id = 5604
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2017-3-7','-767.75','16605','0.0','-767.75')
+UPDATE cartao SET saldo = -767.750000 WHERE id = 16605
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2017-4-24','100.92','16427','0.0','100.92')
+UPDATE cartao SET saldo = 100.920000 WHERE id = 16427
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2017-5-22','210.75','29419','0.0','210.75')
+UPDATE cartao SET saldo = 210.750000 WHERE id = 29419
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2017-6-18','172.52','31014','0.0','172.52')
+UPDATE cartao SET saldo = 172.520000 WHERE id = 31014
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2017-7-27','-854.91','3812','0.0','-854.91')
+UPDATE cartao SET saldo = -854.910000 WHERE id = 3812
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2017-8-30','-855.2','38891','0.0','-855.2')
+UPDATE cartao SET saldo = -855.200000 WHERE id = 38891
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2017-9-7','-664.30','39777','0.0','-664.3')
+UPDATE cartao SET saldo = -664.300000 WHERE id = 39777
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2017-10-10','119.3','13038','0.0','119.3')
+UPDATE cartao SET saldo = 119.300000 WHERE id = 13038
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2017-11-20','-840.87','31520','0.0','-840.87')
+UPDATE cartao SET saldo = -840.870000 WHERE id = 31520
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2017-12-18','-237.95','20742','0.0','-237.95')
+UPDATE cartao SET saldo = -237.950000 WHERE id = 20742
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2018-1-11','-8.8','36965','0.0','-8.8')
+UPDATE cartao SET saldo = -8.800000 WHERE id = 36965
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2018-2-17','36.7','9996','0.0','36.7')
+UPDATE cartao SET saldo = 36.700000 WHERE id = 9996
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2018-3-29','-263.82','29152','0.0','-263.82')
+UPDATE cartao SET saldo = -263.820000 WHERE id = 29152
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2018-4-26','370.64','173','0.0','370.64')
+UPDATE cartao SET saldo = 370.640000 WHERE id = 173
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2018-5-9','-608.99','21928','0.0','-608.99')
+UPDATE cartao SET saldo = -608.990000 WHERE id = 21928
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2018-6-24','225.22','28893','0.0','225.22')
+UPDATE cartao SET saldo = 225.220000 WHERE id = 28893
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2018-7-14','-403.62','24658','0.0','-403.62')
+UPDATE cartao SET saldo = -403.620000 WHERE id = 24658
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2018-8-25','512.20','38768','0.0','512.2')
+UPDATE cartao SET saldo = 512.200000 WHERE id = 38768
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2018-9-23','-295.70','14214','0.0','-295.7')
+UPDATE cartao SET saldo = -295.700000 WHERE id = 14214
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2018-10-28','-619.10','21991','0.0','-619.1')
+UPDATE cartao SET saldo = -619.100000 WHERE id = 21991
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2018-11-4','-386.43','16348','0.0','-386.43')
+UPDATE cartao SET saldo = -386.430000 WHERE id = 16348
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2018-12-24','576.40','18658','0.0','576.4')
+UPDATE cartao SET saldo = 576.400000 WHERE id = 18658
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2019-1-24','-319.55','38148','0.0','-319.55')
+UPDATE cartao SET saldo = -319.550000 WHERE id = 38148
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2019-2-12','-464.89','20300','0.0','-464.89')
+UPDATE cartao SET saldo = -464.890000 WHERE id = 20300
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2019-3-20','994.28','35676','0.0','994.28')
+UPDATE cartao SET saldo = 994.280000 WHERE id = 35676
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2019-4-7','733.86','9650','0.0','733.86')
+UPDATE cartao SET saldo = 733.860000 WHERE id = 9650
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2019-5-20','-566.32','19602','0.0','-566.32')
+UPDATE cartao SET saldo = -566.320000 WHERE id = 19602
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2019-6-5','-514.14','11378','0.0','-514.14')
+UPDATE cartao SET saldo = -514.140000 WHERE id = 11378
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2019-7-2','-931.89','25975','0.0','-931.89')
+UPDATE cartao SET saldo = -931.890000 WHERE id = 25975
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2019-8-3','-973.20','1807','0.0','-973.2')
+UPDATE cartao SET saldo = -973.200000 WHERE id = 1807
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2019-9-7','-989.12','33265','0.0','-989.12')
+UPDATE cartao SET saldo = -989.120000 WHERE id = 33265
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2019-10-23','608.17','28550','0.0','608.17')
+UPDATE cartao SET saldo = 608.170000 WHERE id = 28550
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2019-11-10','688.87','38264','0.0','688.87')
+UPDATE cartao SET saldo = 688.870000 WHERE id = 38264
+INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('2019-12-4','868.57','35988','0.0','868.57')
+UPDATE cartao SET saldo = 868.570000 WHERE id = 35988
