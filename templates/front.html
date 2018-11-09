@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+	<head>
+	    <!-- Required meta tags -->
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	    <!-- Bootstrap CSS -->
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	    
+    	<title>Trabalho Final TOP</title>
+	</head>
+
+	<body>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js" ></script>
+  		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+
+
+		<!-- Parte de cima -->
+		<div class="container">
+				<h1> Clientes </h1>
+
+			<div>
+			    <form name="Consulta" action="http://localhost:5000/clientes" method="GET" align= left>
+			    	<h2 align=left> Consulta de Clientes</h2><br>
+					<input type="submit" name="consultar_clientes" value="Consultar clientes"><br><br>
+				</form>
+
+			    <form name="Consulta" action="http://localhost:5000/cliente/" method="GET" align= left>
+				   	<label>ID do cliente: </label><input name="id_cliente"><br>
+				   	<input type="submit" name="consultar_cliente" value="Consultar Cartoes"><br><br>
+				</form>
+
+				<ul class="list-group">
+				{% for cartao in cartoes %}
+					<li class="list-group-item">{{ cartao.id_cartao }}</li>
+				{% endfor %}
+				</ul><br>
+				
+
+				<form name="Consulta" action="http://localhost:5000/cartao/" method="GET" align= left>
+				   	<label>Numero do cartao: </label><input name="id_cartao"><br>
+				   	<label>Selecione o periodo inicial: </label><input name="ini_date" type="date" min="2000-01-01" max="2018-10-19"><br>
+				    <label>Selecione o periodo final: </label><input name="fim_date" type="date" min="2000-01-01" max="2018-10-19"><br>
+				   	<input type="submit" name="consultar_cartao" value="Consultar Saldo"><br><br>
+				</form>
+
+				<table style="width:70%">
+				<tr>
+				    <th>Valor Movimentacao</th>
+				    <th>Saldo inicial</th> 
+				    <th>Saldo final</th>
+				</tr>				
+				
+				{% for movimentacao in movimentacoes %}
+					<tr>
+					    <td> {{ movimentacao.valor_mov }} </td>
+				    	<td> {{ movimentacao.saldo_ini }} </td> 
+				    	<td> {{ movimentacao.saldo_fim }} </td>
+					</tr>
+				{% endfor %}
+				</table>
+
+		    </div>
+		</div>
+	    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	</body>
+</html>
