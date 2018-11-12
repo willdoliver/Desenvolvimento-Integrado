@@ -13,7 +13,7 @@ def conexao():
 		# CONEXAO SERVER RLE
 		#conex = pymysql.connect(db= 'wolverine', user = 'wolverine', password = "@wolverine#", host = '200.134.10.221', port = 3306)
 		# CONEXAO LOCALHOST
-		conex = pymysql.connect(db= 'wolv', user = 'root', password = "", host = '127.0.0.1', port = 3306)
+		conex = pymysql.connect(db= 'Tete', user = 'root', password = "root", host = 'localhost', port = 3306)
 		cur = conex.cursor() #Abre um cursor para executar operações no BD
 
 		print("****Conectou ao banco!****")
@@ -87,10 +87,11 @@ def insereMovimentacao(total):
 		#Criando transações e datas randomicas - 12 meses
 		for mes in range(1,13):
 			# Laço de repetição para inserir 72bi de movimentações
-			for x in range(1,1000):				
+			for x in range(1,30):				
 				#Criando transações e datas randomicas - 1200 transações
-				for transacao in range(0,1200):
-					data_transacao = "20"+str(ano+14)+"-"+str(mes)+"-"+str(randint(1,30))
+				for transacao in range(0,25000):
+
+					data_transacao = "20"+str(ano+14)+"-"+str(mes)+"-"+str(x)
 					valor_movimentacao = str(randint(-1000, 1000))+ "." + str(randint(0,99))
 					rand = randint(1,int(total))
 
@@ -108,6 +109,7 @@ def insereMovimentacao(total):
 
 					saldo_fim = float(saldo_atual) + float(valor_movimentacao)
 					# FAZ A MOVIMENTAÇÃO E EM SEGUIDA ATUALIZA O SALDO DO CARTÃO, EM cartao.saldo
+
 					sql_insercao = "INSERT INTO movimentacao(data_mov, valor_mov, idfk_cartao, saldo_ini, saldo_fim) VALUES ('%s','%s','%s','%s','%s')" % (data_transacao,valor_movimentacao, rand, saldo_atual, saldo_fim)
 					sql_atualiza = "UPDATE cartao SET saldo = %f WHERE id = %i" % (saldo_fim, rand)
 
@@ -122,6 +124,7 @@ def insereMovimentacao(total):
 						continue
 					if count == 100000 or count == 1000000 or count == 25000000 or count == 40000000 or count == 50000000:
 						print(count, "movimentações inseridas...")
+
 	fim = time.time()
 	print("Tempo: ", fim-inicio)
 	print(count, " dados inseridos\n", fail, " nao inseridos")

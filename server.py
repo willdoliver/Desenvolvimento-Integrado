@@ -15,8 +15,8 @@ app = Flask(__name__)
 # /cartao/*                 Retorna as movimentacoes do cartao
 
 # Conecao com o BD
-DSN = ('localhost','root','root','Tete',3306)
-#DSN = ('200.134.10.221','wolverine','@wolverine#','wolverine',3306)
+#DSN = ('localhost','root','root','Tete',3306)
+DSN = ('200.134.10.221','wolverine','@wolverine#','wolverine',3306)
 dw = pymysql.connect(*DSN,charset='utf8')
 cursor = dw.cursor(pymysql.cursors.DictCursor)
 
@@ -49,7 +49,7 @@ def get_cliente():
 
     cliente_id = int(cliente_id)
     print("Busca de cliente por ID")
-    select = "SELECT id_cartao FROM cartao WHERE idfk_cliente = '%s'" % (cliente_id)
+    select = "SELECT id FROM cartao WHERE idfk_cliente = '%s'" % (cliente_id)
     cursor.execute(select)
     try:
         # retorna item indicado
@@ -89,3 +89,11 @@ def get_cartao():
 if __name__ == '__main__':
     global cursor 
     app.run(debug=True)
+
+
+
+
+#################
+# Trab 2
+# Algoritmo BLAS
+# 
