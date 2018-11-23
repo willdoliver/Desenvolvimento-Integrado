@@ -89,7 +89,7 @@ def insereMovimentacao(total):
 			# Laço de repetição para inserir 72bi de movimentações
 			for x in range(1,30):				
 				#Criando transações e datas randomicas - 1200 transações
-				for transacao in range(0,25000):
+				for transacao in range(0,1200):
 
 					data_transacao = "20"+str(ano+14)+"-"+str(mes)+"-"+str(x)
 					valor_movimentacao = str(randint(-1000, 1000))+ "." + str(randint(0,99))

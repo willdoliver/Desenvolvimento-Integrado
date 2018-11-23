@@ -46,21 +46,27 @@
 				   	<input type="submit" name="consultar_cartao" value="Consultar Saldo"><br><br>
 				</form>
 
-				<table style="width:70%">
-				<tr>
-				    <th>Valor Movimentacao</th>
-				    <th>Saldo inicial</th> 
-				    <th>Saldo final</th>
-				</tr>				
-				
-				{% for movimentacao in movimentacoes %}
+				{{ saldo }}
+
+				{% if movimentacoes: %}
+					<table style="width:90%">
 					<tr>
-					    <td> {{ movimentacao.valor_mov }} </td>
-				    	<td> {{ movimentacao.saldo_ini }} </td> 
-				    	<td> {{ movimentacao.saldo_fim }} </td>
-					</tr>
-				{% endfor %}
-				</table>
+					    <th>Data Movimentacao</th>
+					    <th>Valor Movimentacao</th>
+					    <th>Saldo inicial</th> 
+					    <th>Saldo final</th>
+					</tr>				
+					
+					{% for movimentacao in movimentacoes %}
+						<tr>
+						    <td> {{ movimentacao.data_mov }} </td>
+						    <td> {{ movimentacao.valor_mov }} </td>
+					    	<td> {{ movimentacao.saldo_ini }} </td> 
+					    	<td> {{ movimentacao.saldo_fim }} </td>
+						</tr>
+					{% endfor %}
+					</table>
+				{% endif %}
 
 		    </div>
 		</div>

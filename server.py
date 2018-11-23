@@ -15,8 +15,8 @@ app = Flask(__name__)
 # /cartao/*                 Retorna as movimentacoes do cartao
 
 # Conecao com o BD
-#DSN = ('localhost','root','root','Tete',3306)
-DSN = ('200.134.10.221','wolverine','@wolverine#','wolverine',3306)
+DSN = ('localhost','root','root','Tete',3306)
+#DSN = ('200.134.10.221','wolverine','@wolverine#','wolverine',3306)
 dw = pymysql.connect(*DSN,charset='utf8')
 cursor = dw.cursor(pymysql.cursors.DictCursor)
 
@@ -70,24 +70,53 @@ def get_cartao():
     print("Busca de movimentacoes pelo cartao")
     cartao_id = int(cartao_id)
 
-    if (dta_ini != '' and dta_fim != ''):
-        select = "SELECT valor_mov, saldo_ini, saldo_fim FROM movimentacao WHERE idfk_cartao = '%s' and data_mov BETWEEN '%s' and '%s'" % (cartao_id, dta_ini, dta_fim)
-    else:
-        select = "SELECT valor_mov, saldo_ini, saldo_fim FROM movimentacao WHERE idfk_cartao = '%s'" % (cartao_id)
-    cursor.execute(select)
-    try:
-        # retorna item indicado
-        rows = cursor.fetchall()
-        print(rows)
+    if (dta_ini == '' and dta_fim == ''):
+        select = "SELECT data_mov, valor_mov, saldo_ini, saldo_fim FROM movimentacao WHERE idfk_cartao = '%s'" % (cartao_id)
+        cursor.execute(select)
+    
+        try:
+            # retorna item indicado
+            rows = cursor.fetchall()
+            print(rows)
 
-        return render_template("front.html", movimentacoes=rows)
-    except:
-        # se nao encontrar retorna erro
-        return jsonify({'error 404': 'Not found'})
+            return render_template("front.html", movimentacoes=rows)
+        except:
+            # se nao encontrar retorna erro
+            return jsonify({'error 404': 'Not found'})
+
+    else:
+        select = "SELECT data_mov, valor_mov, saldo_ini, saldo_fim FROM movimentacao WHERE idfk_cartao = '%s' and data_mov BETWEEN '%s' AND '%s' limit 100" % (cartao_id, dta_ini, dta_fim)
+        #valor1 = "SELECT saldo_ini FROM movimentacao WHERE idfk_cartao = '%s' and data_mov >= '%s' limit 1;" % (cartao_id, dta_ini)
+        #valor2 = "SELECT saldo_fim FROM movimentacao WHERE idfk_cartao = '%s' and data_mov <= '%s' order by id desc limit 1;" % (cartao_id, dta_fim)
+
+        try:
+            cursor.execute(select)
+            rows = cursor.fetchall()
+            
+            return render_template("front.html", movimentacoes=rows)
+
+            # cursor.execute(valor1)
+            # v1 = cursor.fetchone()
+            # v1 = v1.values()
+            # v1 = v1.get('saldo_ini')
+            # v1 = v1['saldo_ini']
+            
+            # cursor.execute(valor2)
+            # v2 = cursor.fetchone()
+            # #v2 = v2.values()
+            # v2 = v2.get("saldo_fim")
+            
+            #saldo = v2-v1
+            #print("saldo: "+ saldo)
+            #return render_template("front.html", saldo=saldo)
+        except:
+            print("Erro ao calcular saldo")
+            return jsonify({'error 404': 'Not found'})
+
 
 # executa o servidor
 if __name__ == '__main__':
-    global cursor 
+    #global cursor 
     app.run(debug=True)
 
 
