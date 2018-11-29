@@ -86,29 +86,12 @@ def get_cartao():
 
     else:
         select = "SELECT data_mov, valor_mov, saldo_ini, saldo_fim FROM movimentacao WHERE idfk_cartao = '%s' and data_mov BETWEEN '%s' AND '%s' limit 100" % (cartao_id, dta_ini, dta_fim)
-        #valor1 = "SELECT saldo_ini FROM movimentacao WHERE idfk_cartao = '%s' and data_mov >= '%s' limit 1;" % (cartao_id, dta_ini)
-        #valor2 = "SELECT saldo_fim FROM movimentacao WHERE idfk_cartao = '%s' and data_mov <= '%s' order by id desc limit 1;" % (cartao_id, dta_fim)
 
         try:
             cursor.execute(select)
             rows = cursor.fetchall()
             
             return render_template("front.html", movimentacoes=rows)
-
-            # cursor.execute(valor1)
-            # v1 = cursor.fetchone()
-            # v1 = v1.values()
-            # v1 = v1.get('saldo_ini')
-            # v1 = v1['saldo_ini']
-            
-            # cursor.execute(valor2)
-            # v2 = cursor.fetchone()
-            # #v2 = v2.values()
-            # v2 = v2.get("saldo_fim")
-            
-            #saldo = v2-v1
-            #print("saldo: "+ saldo)
-            #return render_template("front.html", saldo=saldo)
         except:
             print("Erro ao calcular saldo")
             return jsonify({'error 404': 'Not found'})

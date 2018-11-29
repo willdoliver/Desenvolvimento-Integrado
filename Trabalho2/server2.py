@@ -6,6 +6,8 @@ app = Flask(__name__)
 UPLOAD_FOLDER = './tmp'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER 
 
+# URL
+# file:///home/willdoliver/Desktop/2018.2/Integrados/trabalho2/client/front.php
 @app.route('/upload')
 def upload():
    return render_template('front2.html')
