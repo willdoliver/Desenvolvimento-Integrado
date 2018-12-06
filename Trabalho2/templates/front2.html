@@ -20,9 +20,10 @@
 		<!-- Parte de cima -->
 		<div class="container">
 			<h1>Upload do arquivo de sinais</h1><br>
-			<form action = "http://localhost:5000/uploader" method = "POST" enctype = "multipart/form-data">
-	        	<input type = "file" name = "uploadedFile" />
-	        	<input type = "submit"/>
+			<form action="http://localhost:5000/uploader" method="POST" enctype="multipart/form-data">
+	        	<input type="text" name="alternancia" placeholder="Numero para alternancia" /></br>
+	        	<input type="file" name="uploadedFile" />
+	        	<input type="submit"/>
 	    	</form>
 		</div>
 	    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
